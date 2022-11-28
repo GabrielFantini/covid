@@ -64,8 +64,22 @@ int main(){
     		
     		printf("Digite o nome: ");
     		scanf("%s", nome);
+		printf("Digite o CPF: ");
+    		scanf("%s", cpf);
+		printf("Digite o telefone: ");
+    		scanf("%s", telefone);
+		printf("Digite o data de nascimento: ");
+    		scanf("%s", data de nascimento);
+		printf("Digite o endereço: ");
+    		scanf("%s", endereço);
+		printf("Digite o e-mail: ");
+    		scanf("%s", e-mail);
+		printf("Digite o data de diagnóstico: ");
+    		scanf("%s", data de diagnóstico);
+		printf("Digite se possui comorbidades: ");
+    		scanf("%s", comorbidades);
     		
-    		fprintf(pont_arq, "%s", strcat(nome, "|"));
+    		fprintf(pont_arq, "%s", strcat(nome,cpf,telefone,data de nascimento,endereço,e-mail,data de diagnóstico,comorbidades "|"));
     		
     		fclose(pont_arq);
     		
